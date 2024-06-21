@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texting Consent Policy</title>
+</head>
+<body>
+    <p>Opt-in Policy:
+        By providing your phone number and clicking the checkbox, you consent to receive SMS notifications from us. You also agree to receive URLs via text message. Message and data rates may apply. You can opt-out at any time by replying STOP to any message received from us.
+        
+        Opt-out Policy:
+        "To stop receiving SMS notifications from [Your Company Name], reply STOP to any message received. You will no longer receive messages from us, including URLs sent via text. For help, reply HELP.
+        </p>
+</body>
+</html>
