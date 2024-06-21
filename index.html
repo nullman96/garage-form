@@ -45,6 +45,21 @@
         .form-container button:hover {
             background-color: #0056b3;
         }
+        /* Flexbox styling */
+        .consent-container {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .consent-label {
+            flex: 1;
+        }
+        .consent-checkbox {
+            width: 20%;
+        }
+        .consent-text {
+            width: 80%;
+        }
     </style>
 </head>
 <body>
@@ -63,6 +78,19 @@
 
         <label for="phone">Phone</label>
         <input type="tel" id="phone" name="phone" required>
+
+        <!-- Flexbox consent container -->
+        <div class="consent-container">
+            <div class="consent-checkbox">
+                <input type="checkbox" id="consentCheckbox" name="consentCheckbox">
+            </div>
+            <div class="consent-label">
+                <label for="consentCheckbox">
+                    By clicking this checkbox you are consenting to receive SMS notifications from our Company. You are also consenting to receive URLs texted to you. 
+                    You can find out more information <a href="https://yourcompany.com/privacy-policy">here</a>.
+                </label>
+            </div>
+        </div>
 
         <button type="submit">Submit</button>
     </form>
